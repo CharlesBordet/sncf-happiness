@@ -1,0 +1,31 @@
+---
+title: "Analyse des retards de la SNCF"
+author: "Charles Bordet"
+date: "2/20/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Qui n'a jamais détesté la SNCF pendant une journée de grève ? Ou simplement parce que son train avait 2 heures de retard, gâchant le début des vacances, ou anéantissant toutes ses chances pour un entretien d'embauche.
+
+La SNCF s'est construit une réputation... et la presse adore lui taper dessus !
+
+Régulièrement, tel un marronnier, on retrouve de tels articles, comme par exemple ces dernières semaines :
+
+* [SNCF : plus de voyageurs en 2017 mais aussi plus de retards](http://www.lefigaro.fr/conjoncture/2018/01/08/20002-20180108ARTFIG00144-sncf-plus-de-voyageurs-en-2017-mais-aussi-plus-de-retards.php) 
+* [SNCF: Les régions où les retards de train ont empiré (et les rares où ça s'est amélioré)](http://www.huffingtonpost.fr/2017/12/19/sncf-les-regions-ou-les-retards-de-train-ont-empire-et-les-rares-ou-ca-sest-ameliore_a_23311533/)
+* [SNCF : trains surchargés, retards, surréservations... la colère des voyageurs](http://www.lepoint.fr/societe/sncf-trains-surcharges-retards-surreservation-la-colere-des-voyageurs-23-12-2017-2182240_23.php)
+
+Il semblerait que les trains SNCF soient tout le temps en retard...
+
+Mais est-ce vrai ?
+
+Parfois, on a tendance à se focaliser uniquement sur le négatif et cela biaise notre raisonnement. 
+
+Chaque jour, environ 15 000 trains circulent en France, dont 11 000 trains de voyageurs. Se pourrait-ce qu'avoir une minorité de trains en retard ruine la réputation de la SNCF ?
+
+C'est la question à laquelle nous allons nous attaquer dans l'article d'aujourd'hui.
+
